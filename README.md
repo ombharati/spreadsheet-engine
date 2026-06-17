@@ -1,36 +1,27 @@
 # Spreadsheet Engine
 
-A from-scratch Python spreadsheet computation engine for learning core CS and programming concepts.
+A spreadsheet computation engine built from scratch in Python as a project-based approach to learning programming and software engineering fundamentals.
 
-## Overview
-This project implements the core logic of a spreadsheet: cell storage, formula evaluation, dependency tracking, and recalculation. Built as a learning exercise while exploring Python fundamentals, OOP, graphs, and interpreters.
+The objective is to understand how spreadsheet software works internally by implementing core features from first principles rather than relying on existing spreadsheet libraries.
 
-**Goals**:
-- Deepen Python skills (data structures, OOP, error handling)
-- Understand dependency graphs and topological sorting
-- Practice formula parsing and evaluation
-- Experiment with software design principles (modularity, testing)
+Planned areas of exploration include:
 
-**Status**: Early MVP stage. Basics in progress; see [Progress](#progress).
+* Cell storage and retrieval
+* Formula evaluation
+* Dependency tracking
+* Recalculation logic
+* Circular dependency detection
+* Persistence and file handling
+* Terminal-based interaction
 
-## Features (Planned/Implemented)
-- Cell value storage and retrieval
-- Basic formula support (arithmetic, cell references)
-- Dependency tracking and efficient recalculation
-- Circular reference detection
+This project is intentionally developed incrementally. Features are added as concepts are learned and understood, with a focus on clarity, experimentation, and understanding over implementation speed.
 
-## Quick Start
+## Status
+
+In active development.
+
+## Run
+
 ```bash
-# Clone the repo
-git clone https://github.com/yourusername/spreadsheet-engine.git
-cd spreadsheet-engine
-
-# (Optional: virtual env)
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# Install dependencies (if any, e.g., later for testing)
-pip install -r requirements.txt
-
-# Run example / tests
-python -m pytest  # or python examples/basic.py
+python main.py
+```
